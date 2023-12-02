@@ -39,7 +39,7 @@ const About = () => {
 
             <div className={styles.cards}>
                 <Card title="HTML\CSS Developer" icon={getImageUrl('about/icon.png')}></Card>
-                <Card title="React Developer" icon={getImageUrl('about/icon.png')}></Card>
+                <Card title="React Developer" icon={getImageUrl('about/reacticon.png')}></Card>
                 <Card title="Content Maker" icon={getImageUrl('about/icon.png')}></Card>
             </div>
         </section>
