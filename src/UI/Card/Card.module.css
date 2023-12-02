@@ -1,0 +1,22 @@
+.card {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #576cbc;
+    display: flex;
+    flex-direction: column; /* Добавлено для вертикального расположения элементов внутри карточки */
+    justify-content: center; /* Центрирование по вертикали */
+    align-items: center; /* Центрирование по горизонтали */
+}
+
+.card_img {
+    width: 100px;
+    height: 100px;
+}
+
+.card_title {
+    margin-top: 10px; /* Добавлен отступ сверху, чтобы убрать название чуть ниже изображения */
+}
