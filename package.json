@@ -13,9 +13,12 @@
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
     "framer-motion": "^10.16.9",
+    "preact": "^10.19.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-tilt": "^1.0.2"
+    "react-scripts": "^5.0.1",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",

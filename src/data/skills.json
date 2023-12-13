@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "experience/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "experience/css.png"
+  },
+  {
+    "title": "SASS",
+    "imageSrc": "experience/sass.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "experience/javascript.png"
+  },
+  {
+    "title": "React JS",
+    "imageSrc": "experience/reactjs.png"
+  },
+  {
+    "title": "THREE JS",
+    "imageSrc": "experience/threejs.svg"
+  },
+  {
+    "title": "GIT",
+    "imageSrc": "experience/git.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "experience/figma.png"
+  },
+  {
+    "title": "Adobe Photoshop",
+    "imageSrc": "experience/adobe.svg"
+  }
+]

@@ -1,0 +1,80 @@
+@import "../../vars.css";
+
+.container {
+
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.skillTitle {
+    color: var(--color-text);
+}
+
+.skillImageContainer img {
+    max-width: 75px;
+    max-height: 75px;
+    justify-content: center;
+}
+
+
+.skillTitle {
+    text-align: center;
+}
+
+
+h3 {
+    padding-top: 0.25em;
+}
+
+
+.timelineIcon{
+    display: none;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+
+}
+
+.date {
+    color: #fff;
+}
+
+#description {
+    margin: 1.5em 0 2em 0;
+    color: var(--color-dark);
+}
+
+
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+        display: block !important;
+        float: none !important;
+        color: rgb(44, 44, 44);
+        margin-top: 1.5em;
+    }
+}
+
+
