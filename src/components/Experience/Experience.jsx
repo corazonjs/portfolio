@@ -35,17 +35,17 @@ function Experience() {
                             <VerticalTimelineElement
                                 key={element.key}
                                 date={element.date}
-                                dateClassName="date"
+                                dateClassName={styles.date}
                                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
                                 icon={<img src={isWorkIcon ? workIcon : schoolIcon} alt="icon" className={styles.timelineIcon}/>}
                             >
-                                <h3 className="vertical-timeline-element-title">
+                                <h3 className={styles.timelineTitle}>
                                     {element.title}
                                 </h3>
-                                <h5 className="vertical-timeline-element-subtitle">
+                                <h5 className={styles.timelineSubtitle}>
                                     {element.location}
                                 </h5>
-                                <p id="description">{element.description}</p>
+                                <p className={styles.description}>{element.description}</p>
                             </VerticalTimelineElement>
                         );
                     })}

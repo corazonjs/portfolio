@@ -111,6 +111,13 @@
     }
 
     .content {
+        display: flex;
         align-items: center;
+    }
+
+    .heroImg {
+        margin-bottom: 20px;
+        width: 300px;
+        z-index: 5;
     }
 }

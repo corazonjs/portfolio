@@ -55,18 +55,28 @@ h3 {
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
     padding: 2em 3em !important;
-
+    color: white;
 }
 
 .date {
-    color: #fff;
+    color: white;
 }
 
-#description {
+.description {
     margin: 1.5em 0 2em 0;
-    color: var(--color-dark);
+    color: var(--color-bg);
 }
 
+
+.timelineSubtitle, .timelineTitle {
+    color: var(--color-bg);
+}
+
+@media only screen and (max-width: 1170px) {
+    .date {
+        color: var(--color-dark);
+    }
+}
 
 @media only screen and (max-width: 1700px) {
     .vertical-timeline-element-date {

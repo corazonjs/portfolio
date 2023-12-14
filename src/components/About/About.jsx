@@ -33,7 +33,7 @@ const About = () => {
             <h2 className={styles.title}>About me</h2>
             <p className={styles.desc}>
                 {textArray.map((text, index) => (
-                    <TypingTextAnimation key={index} text={text} delay={50} />
+                    <TypingTextAnimation key={index} text={text} delay={40} />
                 ))}
             </p>
 
