@@ -1,7 +1,7 @@
 [
   {
     "title": "Chrome Dino Game Clone",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/chromedino.jpg",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["Javascript", "Event Handling"],
     "demo": "https://corazonjsx.github.io/chrome-dino-game/",
