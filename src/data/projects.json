@@ -2,24 +2,24 @@
   {
     "title": "Chrome Dino Game Clone",
     "imageSrc": "projects/chromedino.jpg",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This project provided a great opportunity to explore animation and event handling when creating a classic browser game.",
     "skills": ["Javascript", "Event Handling"],
     "demo": "https://corazonjsx.github.io/chrome-dino-game/",
     "source": "https://github.com/corazonjsx/chrome-dino-game.git"
   },
   {
-    "title": "Project",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Odigo",
+    "imageSrc": "projects/odigo.png",
+    "description": "Odigo travel site, showcases adaptive design and site optimization techniques.",
+    "skills": ["Adaptive", "SEO", "Mobile"],
+    "demo": "https://corazonjsx.github.io/odigo/",
+    "source": "https://github.com/corazonjsx/odigo"
   },
   {
     "title": "Project",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "in process",
+    "skills": ["swiperjs", "gulp", "SCSS"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }

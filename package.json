@@ -10,15 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
-    "framer-motion": "^10.16.9",
+    "@react-three/drei": "^9.92.7",
+    "@react-three/fiber": "^8.15.12",
+    "framer-motion": "^10.16.16",
+    "maath": "^0.10.7",
     "preact": "^10.19.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
     "react-scripts": "^5.0.1",
     "react-tilt": "^1.0.2",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
