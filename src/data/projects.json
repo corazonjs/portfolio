@@ -2,7 +2,7 @@
   {
     "title": "Chrome Dino Game Clone",
     "imageSrc": "projects/chromedino.jpg",
-    "description": "This project provided a great opportunity to explore animation and event handling when creating a classic browser game.",
+    "description": "Studied animation and event handling when creating a browser game.",
     "skills": ["Javascript", "Event Handling"],
     "demo": "https://corazonjsx.github.io/chrome-dino-game/",
     "source": "https://github.com/corazonjsx/chrome-dino-game.git"
@@ -16,9 +16,9 @@
     "source": "https://github.com/corazonjsx/odigo"
   },
   {
-    "title": "Project",
+    "title": "Project (in process)",
     "imageSrc": "projects/project.png",
-    "description": "in process",
+    "description": "\nProject using swiper js library",
     "skills": ["swiperjs", "gulp", "SCSS"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"

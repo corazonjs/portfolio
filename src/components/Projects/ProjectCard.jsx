@@ -5,8 +5,7 @@ import { getImageUrl } from "../../utils";
 import { Tilt } from "react-tilt";
 
 
-export const ProjectCard = ({
-                                project: { title, imageSrc, description, skills, demo, source },}) => {
+export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source },}) => {
     return (
         <Tilt glareEnable={false} tiltMaxAngleX={10}
               tiltMaxAngleY={10} perspective={1000}>

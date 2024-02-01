@@ -1,8 +1,8 @@
 import React, { useState, useRef }  from 'react';
 import styles from './Contact.module.css'
 import emailjs from '@emailjs/browser';
-
-
+import { getImageUrl } from '../../utils.js';
+import Modal from './Modal/Modal.jsx'
 const Contact = () => {
 
     const formRef = useRef();
@@ -59,10 +59,13 @@ const Contact = () => {
             })
     }
 
+    const [modalActive, setModalActive] = useState(false)
+
 
 
     return (
         <footer id="contact" className={styles.container}>
+
             <form ref={formRef}
                   onSubmit={handleSubmit}
                   className={styles.contactForm}
@@ -101,12 +104,40 @@ const Contact = () => {
                     />
                 </label>
 
-                <button type="submit" className={styles.button}>
-                    {loading ? 'Sending...' : 'Send'}
-                </button>
+                <div className={styles.buttons}>
+
+                    <button type="submit" className={styles.button}>
+                        {loading ? 'Sending...' : 'Send'}
+                    </button>
+
+                    <div className={styles.contact_links}>
+                        <a href="https://github.com/corazonjsx" target="_blank">
+                            <img src={getImageUrl("contact/githubIcon.png")} alt="GitHub"/>
+                        </a>
+                        <a href="https://linkedin.com/in/corazonjsx/" target="_blank">
+                            <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn"/>
+                        </a>
+                    </div>
+                </div>
             </form>
 
 
+            <div className={styles.logo}>
+                <img onClick={() => setModalActive(true)}
+                     className={styles.logo}
+                     src={getImageUrl("contact/logo.svg")}
+                     alt="logo"/>
+            </div>
+            <Modal active={modalActive} setActive={setModalActive}>
+                <p className={styles.modal_desc}>"Corazon" in Spanish means "heart," and in this context, it symbolizes
+                    the deep emotions I pour into
+                    every line of code. <br/><br/>
+                    <b>Corazonjsx</b> is not just a combination of words; it's the fusion of a passion for React and a
+                    love
+                    for programming as a whole. Behind every commit, behind every project is my heart, filled with
+                    enthusiasm and a desire to create something unique.</p>
+            </Modal>
+            <div className={styles.blur}/>
 
         </footer>
     );
